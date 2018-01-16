@@ -1,4 +1,4 @@
-"""Beginning of the program.  As mentioned before, this program will ask the user to enter in various grocery items that they bought.  Depending on which items the user lists, the program will offer the user different answers.
+"""As mentioned before, this program will ask the user to enter in various grocery items that they bought.  Depending on which items the user lists, the program will offer the user different answers.
 
 The first draft of SmartList has five food categories: 1.) meat, 2.) dairy, 3.) grains, 4.) vegetables, 5.) fruit.  Each of these categories is a list variable.  Within each list is a limited menu of that type of food.  
 
@@ -12,6 +12,7 @@ The program's goal is to remind the user that they ought to balance their diet b
 
 
 """
+*Beginning of SmartList.
 meat = ["poultry", "beef", "fish"]
 dairy = ["cheese", "milk", "yogurt"]
 grains = ["bread", "pasta", "quinoa"]
