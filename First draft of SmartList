@@ -17,7 +17,8 @@ dairy = ["cheese", "milk", "yogurt"]
 grains = ["bread", "pasta", "quinoa"]
 vegetables = ["carrots", "broccoli", "peppers"]
 fruit = ["strawberries", "bananas", "apples"]
-comp_list = [meat, dairy, grains, vegetables, fruit]
+nuts = ["cashews", "almonds", "peanuts"]
+comp_list = [meat, dairy, grains, vegetables, fruit, nuts]
 if 2 > 1:
         query = str(input("What food did you buy at the store today?"))
         if query.count(comp_list[0][0]) == 0 and query.count(comp_list[0][1]) == 0 and query.count(comp_list[0][1]) == 0:
@@ -30,6 +31,8 @@ if 2 > 1:
                 print("You ought to include more vegetables in your diet!")
         if query.count(comp_list[4][0]) == 0 and query.count(comp_list[4][1]) == 0 and query.count(comp_list[4][2]) == 0:
                 print("You ought to include more fruit in your diet!")
+        if query.count(comp_lsit[5][0]) == 0 and query.count(comp_list[5][1]) == 0 and query.count(comp_list[5][2]) == 0:
+                print("You ought to include more nuts in your diet!")
         else:
                 print("Nice! You're eating a balanced diet.")
         """End of program for now.
