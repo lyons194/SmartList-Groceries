@@ -14,12 +14,58 @@ The program's goal is to remind the user that they ought to balance their diet b
 """
 *Beginning of SmartList.
 meat = ["poultry", "beef", "fish"]
+"""
+End of meat list.
+
+
+Beginning of dairy list.
+"""
 dairy = ["cheese", "milk", "yogurt"]
+"""
+End of dairy list.
+
+
+Beginning of grains list.
+"""
 grains = ["bread", "pasta", "quinoa"]
+"""
+End of grains list.
+
+
+Beginning of vegetables list.
+"""
 vegetables = ["carrots", "broccoli", "peppers"]
-fruit = ["strawberries", "bananas", "apples"]
+"""
+End of vegetable list.
+
+
+Beginning of fruit list.
+"""
+fruit = ["strawberries", "bananas", "apples", "grapefruit", "mandarine", "apricot", "apricot", "guava", "guavas", "tangerine", "tangerines", "avocado", "avocados", "honeyberry", "honeyberries", "papaya", "papayas", "huckleberries", "passionfruit", "blackberry", "pear", "blackcurrant", "persimmon", "blueberries", "plantains", "boysenberries", "plums", "prunes", "crab apples", "kiwi", "pineapple", "kumquat", "cherries", "lemons", "pomegranates", "limes", "lychee berries", "cranberries", "mangoes", "raspberries", "cucumbers", "dates", "dragonfruit", "cantaloupe", "honeydew", "durian", "watermelon", "star fruit", "mulberries", "figs", "nectarines", "grapes", "oranges", "raisins", "clementines"]
+"""
+NOTE: DO NOT FORGET TO INCORPORATE THESE ADDED FRUITS INTO THE QUERY SECTION.
+
+"""
+"""
+End of fruit list.
+
+
+Beginning of nuts list.
+
+"""
 nuts = ["cashews", "almonds", "peanuts", "coconuts", "hazelnuts", "macadamia nuts", "pecan", "pecans", "pine nuts", "pistachios"]
+"""
+End of nuts list.
+
+
+The next section defines the comp_list variable.
+"""
 comp_list = [meat, dairy, grains, vegetables, fruit, nuts]
+"""
+comp_list has been defined.
+
+Beginning of query section.
+"""
 if 2 > 1:
         query = str(input("What food did you buy at the store today?"))
         if query.count(comp_list[0][0]) == 0 and query.count(comp_list[0][1]) == 0 and query.count(comp_list[0][1]) == 0:
