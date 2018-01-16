@@ -17,7 +17,7 @@ dairy = ["cheese", "milk", "yogurt"]
 grains = ["bread", "pasta", "quinoa"]
 vegetables = ["carrots", "broccoli", "peppers"]
 fruit = ["strawberries", "bananas", "apples"]
-nuts = ["cashews", "almonds", "peanuts"]
+nuts = ["cashews", "almonds", "peanuts", "coconuts", "hazelnuts", "macadamia nuts", "pecan", "pecans", "pine nuts", "pistachios"]
 comp_list = [meat, dairy, grains, vegetables, fruit, nuts]
 if 2 > 1:
         query = str(input("What food did you buy at the store today?"))
@@ -31,11 +31,13 @@ if 2 > 1:
                 print("You ought to include more vegetables in your diet!")
         if query.count(comp_list[4][0]) == 0 and query.count(comp_list[4][1]) == 0 and query.count(comp_list[4][2]) == 0:
                 print("You ought to include more fruit in your diet!")
-        if query.count(comp_lsit[5][0]) == 0 and query.count(comp_list[5][1]) == 0 and query.count(comp_list[5][2]) == 0:
-                print("You ought to include more nuts in your diet!")
+        if query.count(comp_list[5][0]) == 0 and query.count(comp_list[5][1]) == 0 and query.count(comp_list[5][2]) == 0 and query.count(comp_list[5][3]) == 0 and query.count(comp_list[5][4]) == 0 and query.count(comp_list[5][5]) == 0 and query.count(comp_list[5][6]) == 0 and query.count(comp_list[5][7]) == 0 and query.count(comp_list[5][8]) == 0 and query.count(comp_list[5][9]) == 0:
+        print("You ought to include more nuts in your diet!")
         else:
                 print("Nice! You're eating a balanced diet.")
         """End of program for now.
         More to come.
+        
+        THOUGHT: Future drafts should include singular and plural versions of all food types; additionally, future drafts of this program should include versions of the food items that have the first initial capitalized.  Following through on these two above-mentioned edits could make this program more artificially intelligent, allowing for the program to read indiosyncrasies that may exist in how different users type or if a user accidentally misspells a particular item.
+        
         """
-                
