@@ -34,7 +34,7 @@ End of grains list.
 
 Beginning of vegetables list.
 """
-vegetables = ["carrots", "broccoli", "peppers"]
+vegetables = ["carrots", "broccoli", "bell peppers", "yellow onions", "red onions", "white onions"]
 """
 End of vegetable list.
 
