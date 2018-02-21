@@ -13,28 +13,28 @@ The program's goal is to remind the user that they ought to balance their diet b
 
 """
 *Beginning of SmartList.
-meat = ["poultry", "beef", "fish"]
+meat = ["poultry", "beef", "fish", "lamb", "venison", "veal", "eggs", "bacon", "pork", "sausage", "turkey"]
 """
 End of meat list.
 
 
 Beginning of dairy list.
 """
-dairy = ["cheese", "milk", "yogurt"]
+dairy = ["cheese", "milk", "yogurt", "Kefir", "Half and Half"]
 """
 End of dairy list.
 
 
 Beginning of grains list.
 """
-grains = ["bread", "pasta", "quinoa"]
+grains = ["bread", "pasta", "quinoa", "oats", "granola"]
 """
 End of grains list.
 
 
 Beginning of vegetables list.
 """
-vegetables = ["carrots", "broccoli", "bell peppers", "yellow onions", "red onions", "white onions"]
+vegetables = ["carrots", "broccoli", "bell peppers", "yellow onions", "red onions", "white onions", "eggplant", "artichoke", "brussel sprouts", "green beans", "radishes", "beets", "rhubarb"]
 """
 End of vegetable list.
 
