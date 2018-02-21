@@ -8,7 +8,7 @@ After defining the five (possibly more in the future) categories, the program as
 
 The program's goal is to remind the user that they ought to balance their diet by including at least one item from each of the five food-type lists.  If the program detects that the user did not buy a certain food-type item, the program will remind the user that they should include more of that food type in their diet.
 
-**Note that many more grocery items of all types will be included in future versions of this program.
+**Note that many more grocery items of all types will be included in future versions of this program..
 
 
 """
