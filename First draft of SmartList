@@ -20,7 +20,7 @@ End of meat list.
 
 Beginning of dairy list.
 """
-dairy = ["cheese", "milk", "yogurt", "Kefir", "Half and Half"]
+dairy = ["cheese", "milk", "yogurt", "Kefir", "Half and Half", "butter", "butter milk"]
 """
 End of dairy list.
 
