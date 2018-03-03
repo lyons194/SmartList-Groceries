@@ -53,7 +53,7 @@ End of fruit list.
 Beginning of nuts list.
 
 """
-nuts = ["cashews", "almonds", "peanuts", "coconuts", "hazelnuts", "macadamia nuts", "pecan", "pecans", "pine nuts", "pistachios"]
+nuts = ["cashews", "almonds", "peanuts", "coconuts", "hazelnuts", "macadamia nuts", "pecan", "pecans", "pine nuts", "pistachios", "Brazil nuts"]
 """
 End of nuts list.
 
