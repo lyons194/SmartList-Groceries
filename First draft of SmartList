@@ -85,6 +85,6 @@ if 2 > 1:
         """End of program for now.
         More to come.
         
-        THOUGHT: Future drafts should include singular and plural versions of all food types; additionally, future drafts of this program should include versions of the food items that have the first initial capitalized.  Following through on these two above-mentioned edits could make this program more artificially intelligent, allowing for the program to read indiosyncrasies that may exist in how different users type or if a user accidentally misspells a particular item.
+        THOUGHT: Future drafts should include singular and plural versions of all food types.  Additionally, future drafts of this program should include versions of the food items that have the first initial capitalized.  Following through on these two above-mentioned edits could make this program more artificially intelligent, allowing for the program to read indiosyncrasies that may exist in how different users type or if a user accidentally misspells a particular item.
         
         """
