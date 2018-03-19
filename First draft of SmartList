@@ -55,7 +55,7 @@ Beginning of nuts list.
 """
 nuts = ["cashews", "almonds", "peanuts", "coconuts", "hazelnuts", "macadamia nuts", "pecan", "pecans", "pine nuts", "pistachios", "Brazil nuts"]
 """
-End of nuts list.
+End of nuts list..
 
 
 The next section defines the comp_list variable.
