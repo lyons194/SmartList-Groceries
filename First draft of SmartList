@@ -12,7 +12,7 @@ The program's goal is to remind the user that they ought to balance their diet b
 
 
 """
-*Beginning of SmartList..
+*Beginning of SmartList...
 meat = ["poultry", "beef", "fish", "lamb", "venison", "veal", "eggs", "bacon", "pork", "sausage", "turkey", "ham"]
 """
 End of meat list.
