@@ -18,7 +18,7 @@ meat = ["poultry", "beef", "fish", "lamb", "venison", "veal", "eggs", "bacon", "
 End of meat list.
 
 
-Beginning of dairy list.
+Beginning of dairy list..
 """
 dairy = ["cheese", "milk", "yogurt", "Kefir", "Half and Half", "butter", "butter milk"]
 """
