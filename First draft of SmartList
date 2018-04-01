@@ -43,7 +43,7 @@ Beginning of fruit list.
 """
 fruit = ["strawberries", "bananas", "apples", "grapefruit", "mandarine", "apricot", "apricot", "guava", "guavas", "tangerine", "tangerines", "avocado", "avocados", "honeyberry", "honeyberries", "papaya", "papayas", "huckleberries", "passionfruit", "blackberry", "pear", "blackcurrant", "persimmon", "blueberries", "plantains", "boysenberries", "plums", "prunes", "crab apples", "kiwi", "pineapple", "kumquat", "cherries", "lemons", "pomegranates", "limes", "lychee berries", "cranberries", "mangoes", "raspberries", "cucumbers", "dates", "dragonfruit", "cantaloupe", "honeydew", "durian", "watermelon", "star fruit", "mulberries", "figs", "nectarines", "grapes", "oranges", "raisins", "clementines"]
 """
-NOTE: DO NOT FORGET TO INCORPORATE THESE ADDED FRUITS INTO THE QUERY SECTION.
+NOTE: DO NOT FORGET TO INCORPORATE THESE ADDED FRUITS INTO THE QUERY SECTION..
 
 """
 """
