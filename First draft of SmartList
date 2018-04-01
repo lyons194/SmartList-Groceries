@@ -4,7 +4,7 @@ The first draft of SmartList has five food categories: 1.) meat, 2.) dairy, 3.) 
 
 **Note that subsequent versions of this program will have food-type menus that are much more extensive (and may even take common misspellings of certain words into account, just to make the program more artificially intelligent).
 
-After defining the five (possibly more in the future ) categories, the program asks the user to recite what grocery items they bought from the store.  The program will make dietary recommendations to the user based upon how the user answers the program's initial question.
+After defining the five (possibly more in the future) categories, the program asks the user to recite what grocery items they bought from the store.  The program will make dietary recommendations to the user based upon how the user answers the program's initial question.
 
 The program's goal is to remind the user that they ought to balance their diet by including at least one item from each of the five food-type lists.  If the program detects that the user did not buy a certain food-type item, the program will remind the user that they should include more of that food type in their diet.
 
