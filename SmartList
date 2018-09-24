@@ -1,71 +1,13 @@
-"""As mentioned before, this program will ask the user to enter in various grocery items that they bought.  Depending on which items the user lists, the program will offer the user different answers.
-
-The first draft of SmartList has five food categories: 1.) meat, 2.) dairy, 3.) grains, 4.) vegetables, 5.) fruit.  Each of these categories is a list variable.  Within each list is a limited menu of that type of food.  
-
-*Note that subsequent versions of this program will have food-type menus that are much more extensive (and may even take common misspellings of certain words into account, just to make the program more artificially intelligent).
-
-After defining the five (possibly more in the future) categories, the program asks the user to recite what grocery items they bought from the store.  The program will make dietary recommendations to the user based upon how the user answers the program's initial question.
-
-The program's goal is to remind the user that they ought to balance their diet by including at least one item from each of the five food-type lists.  If the program detects that the user did not buy a certain food-type item, the program will remind the user that they should include more of that food type in their diet.
-
-**Note that many more grocery items of all types will be included in future versions of this program..
-
-
-"""
-*Beginning of SmartList...
 meat = ["poultry", "beef", "fish", "lamb", "venison", "veal", "eggs", "bacon", "pork", "sausage", "turkey", "ham"]
-"""
-End of meat list.
-
-
-Beginning of dairy list..
-"""
 dairy = ["cheese", "milk", "yogurt", "Kefir", "Half and Half", "butter", "butter milk"]
-"""
-End of dairy list.
-
-
-Beginning of grains list.
-"""
 grains = ["bread", "pasta", "quinoa", "oats", "granola"]
-"""
-End of grains list.
-
-
-Beginning of vegetables list.
-"""
 vegetables = ["carrots", "broccoli", "bell peppers", "yellow onions", "red onions", "white onions", "eggplant", "artichoke", "brussel sprouts", "green beans", "radishes", "beets", "rhubarb"]
-"""
-End of vegetable list.
-
-
-Beginning of fruit list.
-"""
 fruit = ["strawberries", "bananas", "apples", "grapefruit", "mandarine", "apricot", "apricot", "guava", "guavas", "tangerine", "tangerines", "avocado", "avocados", "honeyberry", "honeyberries", "papaya", "papayas", "huckleberries", "passionfruit", "blackberry", "pear", "blackcurrant", "persimmon", "blueberries", "plantains", "boysenberries", "plums", "prunes", "crab apples", "kiwi", "pineapple", "kumquat", "cherries", "lemons", "pomegranates", "limes", "lychee berries", "cranberries", "mangoes", "raspberries", "cucumbers", "dates", "dragonfruit", "cantaloupe", "honeydew", "durian", "watermelon", "star fruit", "mulberries", "figs", "nectarines", "grapes", "oranges", "raisins", "clementines"]
-"""
-NOTE: DO NOT FORGET TO INCORPORATE THESE ADDED FRUITS INTO THE QUERY SECTION..
-
-"""
-"""
-End of fruit list.
-
-
-Beginning of nuts list.
-
-"""
+#NOTE: DO NOT FORGET TO INCORPORATE THESE ADDED FRUITS INTO THE QUERY SECTION..
 nuts = ["cashews", "almonds", "peanuts", "coconuts", "hazelnuts", "macadamia nuts", "pecan", "pecans", "pine nuts", "pistachios", "Brazil nuts"]
-"""
-End of nuts list..
-
-
-The next section defines the comp_list variable.
-"""
+#The next section defines the comp_list variable.
 comp_list = [meat, dairy, grains, vegetables, fruit, nuts]
-"""
-comp_list has been defined.
-
-Beginning of query section.
-"""
+#Beginning of query section.
 if 2 > 1:
         query = str(input("What food did you buy at the store today?"))
         if query.count(comp_list[0][0]) == 0 and query.count(comp_list[0][1]) == 0 and query.count(comp_list[0][1]) == 0:
@@ -82,9 +24,4 @@ if 2 > 1:
         print("You ought to include more nuts in your diet!")
         else:
                 print("Nice! You're eating a balanced diet.")
-        """End of program for now.
-        More to come.
-        
-        THOUGHT: Future drafts should include singular and plural versions of all food types.  Additionally, future drafts of this program should include versions of the food items that have the first initial capitalized.  Following through on these two above-mentioned edits could make this program more artificially intelligent, allowing for the program to read indiosyncrasies that may exist in how different users type or if a user accidentally misspells a particular item.
-        
-        """
+                #End of program for now.
