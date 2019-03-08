@@ -1,3 +1,6 @@
+#Beginning of program.
+
+
 meat = ["poultry", "beef", "fish", "lamb", "venison", "veal", "eggs", "bacon", "pork", "sausage", "turkey", "ham"]
 dairy = ["cheese", "milk", "yogurt", "Kefir", "Half and Half", "butter", "butter milk"]
 grains = ["bread", "pasta", "quinoa", "oats", "granola"]
